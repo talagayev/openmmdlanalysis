@@ -1,0 +1,13 @@
+cairosvg>=2.7.1
+mdtraj>=1.9.9
+matplotlib>=3.8.0
+mdanalysis
+rdkit>=2022.03.5
+tqdm
+networkx
+nglview
+jupyter
+
+[test]
+pytest>=6.1.2
+pytest-runner

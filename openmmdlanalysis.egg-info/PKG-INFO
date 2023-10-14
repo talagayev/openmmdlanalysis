@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: openmmdlanalysis
+Version: 0.0.1
+Summary: Analyze your molecular dynamics simulations for receptor ligand interactions
+Author-email: Molecular Design Lab <niklas.piet.doering@fu-berlin.de>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cairosvg>=2.7.1
+Requires-Dist: mdtraj>=1.9.9
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: mdanalysis
+Requires-Dist: rdkit>=2022.03.5
+Requires-Dist: tqdm
+Requires-Dist: networkx
+Requires-Dist: nglview
+Requires-Dist: jupyter
+Provides-Extra: test
+Requires-Dist: pytest>=6.1.2; extra == "test"
+Requires-Dist: pytest-runner; extra == "test"
+
+openmmdlanalysis
+==============================
+[//]: # (Badges)
+[![GitHub Actions Build Status](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/openmmdlanalysis/workflows/CI/badge.svg)](https://github.com/REPLACE_WITH_OWNER_ACCOUNT/openmmdlanalysis/actions?query=workflow%3ACI)
+[![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/openmmdlanalysis/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/openmmdlanalysis/branch/main)
+
+
+Analyze your molecular dynamics simulations for receptor ligand interactions
+
+### Copyright
+
+Copyright (c) 2023, Molecular Design Lab
+
+
+#### Acknowledgements
+ 
+Project based on the 
+[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.1.
